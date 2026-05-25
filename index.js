@@ -256,9 +256,9 @@ const initializeApp = async () => {
  * Start Application
  * Runs only if this file is executed directly (not imported)
  */
-if (require.main === module) {
+
   initializeApp();
-}
+
 
 // Export app for testing or other uses
 module.exports = app;
