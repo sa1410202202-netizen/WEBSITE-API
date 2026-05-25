@@ -258,7 +258,8 @@ const initializeApp = async () => {
  */
 
   initializeApp();
+  module.exports = app;
 
 
-// Export app for testing or other uses
-module.exports = app;
+
+
